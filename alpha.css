@@ -1,0 +1,157 @@
+/*----------------------------------- Basic styling ---------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+body {
+  /* font-family: Arial, sans-serif; */
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+}
+
+/*-------------------------------------- Header styles --------------------------*/
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.header img {
+  max-width: 100px;
+}
+
+
+nav li {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/*----------------------------------------- Main content styles ------------------------------*/
+.hero {
+  text-align: center;
+  padding: 40px;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("image.jpeg") no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  /* font-weight: 700; */
+  font-size: 30px;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+/* -------------------------------------------Intro section styles -----------------------------------*/
+
+.intro {
+  padding: 20px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.intro hr {
+  margin-block: 30px;
+}
+
+.intro h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  margin: 30px;
+  text-align: center;
+}
+
+
+/* -------------------------------------------Course section styles -----------------------------------*/
+.courses {
+  background-color: #f4f4f4;
+  padding: 25px;
+  text-align: center;
+}
+
+.course {
+  display: inline-block;
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: ease-in-out .3s;
+}
+
+.courses .course:hover{
+    width: 28%;
+}
+
+.course h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+
+/*-------------------------------------------------- Footer styles ----------------------------------*/
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0 5px 0 ;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer .designed-by{
+    /* height: 20px; */
+    background-color: #161414;
+}
